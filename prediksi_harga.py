@@ -2,8 +2,10 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
 
-model = pickle.load(open("prediksi_harga_mobil.sav", 'rb'))
+model_path = os.path.join(os.getcwd(), "prediksi_harga_mobil.sav")
+model = pickle.load(open(model_path, 'rb'))
 
 st.title("Prediksi Harga Mobil")
 

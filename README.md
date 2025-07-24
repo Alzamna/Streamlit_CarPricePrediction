@@ -58,4 +58,3 @@ Aplikasi ini adalah sebuah web sederhana untuk **prediksi harga mobil** mengguna
 ### Catatan
 - Pastikan file `prediksi_harga_mobil.sav` dan `CarPrice.csv` berada di direktori yang sama dengan `app.py`.
 - Jika ada kesalahan atau bug saat menjalankan aplikasi, pastikan dependensi telah terinstal dengan benar.
-- 
